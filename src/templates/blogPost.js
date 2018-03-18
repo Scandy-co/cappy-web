@@ -38,6 +38,10 @@ class BlogPostTemplate extends React.Component {
               __html: body.childMarkdownRemark.html,
             }}
           />
+          <div>{author.fullName} - {author.twitter}</div>
+          <Img style={{ margin: 0 }}
+              resolutions={author.avatar.resolutions}
+              />
 
         </div>
       </div>
