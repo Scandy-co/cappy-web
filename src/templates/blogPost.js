@@ -17,11 +17,7 @@ class BlogPostTemplate extends React.Component {
         cover,
         date,
         tags,
-        author: {
-            fullName,
-            avatar,
-            twitter,
-        }
+        author
     } = post
     return (
       <div>
@@ -38,12 +34,10 @@ class BlogPostTemplate extends React.Component {
               __html: body.childMarkdownRemark.html,
             }}
           />
-          <div>{author.fullName} - {author.twitter}</div>
-          <Img style={{ margin: 0 }}
-              resolutions={author.avatar.resolutions}
-              />
-
+          
         </div>
+        <div>{author[0].fullName} - {author[0].twitter}</div>
+          <Img style={{ margin: 0 }} resolutions={author[0].avatar.responsiveResolution} />
       </div>
     )
   }
@@ -68,7 +62,7 @@ export const pageQuery = graphql`
       author {
           fullName
           avatar {
-            resolutions(width: 50, height: 50) {
+            responsiveResolution(width: 50, height: 50) {
               base64
               src
               srcSet

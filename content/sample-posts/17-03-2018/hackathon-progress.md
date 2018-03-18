@@ -30,8 +30,17 @@ Happy St. Patrick's Day!
 
 7:25pm: I've fixed my issues (along with George's help) by deleting every line that throws an error until there are no more errors. Site is back working with lesser functionality. Damn. Database progress proceeding, but slowly. George is cranking. Evan has been quiet, so I assume there is progress. No shouts of exultation, but no cursing either. 
 
-8:36pm: shouts of "what the hell?" and "I had that same error! It didn't make sense." Also Evan: "Xcode is being an asshole"
+8:36pm: shouts of "what the hell?" and "I had that same error! It didn't make sense." Also Evan: "Xcode is being an asshole."
 
+10:05pm: Charles returns with the pizza and proves to all that he can count to four. Cole is chagrined. Cole has been less than successful in counting to four this week. 
+
+11:00pm: After trashing the old website and starting over, George has put me on a more resonable and responsible path.
+
+11:05pm: Cole to FireBase database: "how did you get WORSE?"
+
+12:00pm: We lunch on Hola Nola tortilla chips, leftover pizza, and donuts. Don't judge. We are making progress.
+
+2:05pm: First beer. Don't judge. We are making progress. I promise. 
 
 
 
